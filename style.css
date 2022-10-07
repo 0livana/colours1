@@ -1,0 +1,543 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    flex-grow: 1;
+    height: 2rem;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+nav ul li:nth-of-type(1){
+    background-color: black;
+}
+nav ul li:nth-of-type(2){
+    background-color: yellow;
+}
+nav ul li:nth-of-type(3){
+    background-color: cyan;
+}
+nav ul li:nth-of-type(4){
+    background-color: limegreen;
+}
+nav ul li:nth-of-type(5){
+    background-color: red;
+}
+nav ul li:nth-of-type(6){
+    background-color: royalblue;
+}
+nav ul li:nth-of-type(7){
+    background-color: darkviolet;
+}
+nav ul li:nth-of-type(8){
+    background-color: pink;
+}
+nav ul li:nth-of-type(9){
+    background-color: orange;
+}
+nav ul li:nth-of-type(10){
+    background-color: gray;
+}
+nav ul li:nth-of-type(11){
+    background-color: white;
+}
+nav ul li:nth-of-type(12){
+    background-color: brown;
+}
+a{
+    display: block;
+    height: 2rem;
+    line-height: 0;
+    text-indent: -9999px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1{
+    margin: 1.5rem;
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Styles for index page */
+
+.main ul{
+    display: flex;
+    justify-content: center;
+}
+.main ul li{
+    margin:0 1rem;
+}
+.main{
+    padding: 160px 0
+}
+.main:nth-child(2){
+    background: palegreen;
+}
+.main:nth-child(3){
+    background: rebeccapurple;
+}
+.main:nth-child(4){
+    background: cornsilk;
+}
+.main:nth-child(5){
+    background: yellow;
+}
+.main:nth-child(6){
+    background: snow;
+}
+.main:nth-child(7){
+    background: saddlebrown;
+}
+.main:nth-child(8){
+    background: rosybrown;
+}
+.main:nth-child(9){
+    background: midnightblue;
+}
+.main:nth-child(10){
+    background: mediumturquoise;
+}
+.dark{
+    color: black;
+}
+.light{
+    color: white;
+}
+
+/* Styles for yellow page */
+
+.main1 ul{
+    display: flex;
+    justify-content: center;
+}
+.main1 ul li{
+    margin:0 1rem;
+}
+.main1{
+    padding: 160px 0
+}
+.main1:nth-of-type(1){
+    background: peachpuff;
+}
+.main1:nth-child(2){
+    background: papayawhip;
+}
+.main1:nth-child(3){
+    background: moccasin;
+}
+.main1:nth-child(4){
+    background: goldenrod;
+}
+.main1:nth-child(5){
+    background: gold;
+}
+.main1:nth-child(6){
+    background: khaki;
+}
+.main1:nth-child(7){
+    background: lemonchiffon;
+}
+.main1:nth-child(8){
+    background: palegoldenrod;
+}
+.main1:nth-child(9){
+    background: darkkhaki;
+}
+.main1:nth-child(10){
+    background: yellow;
+}
+
+/* styles for cyan page */
+
+.main2 ul{
+    display: flex;
+    justify-content: center;
+}
+.main2 ul li{
+    margin:0 1rem;
+}
+.main2{
+    padding: 160px 0
+}
+.main2:nth-of-type(1){
+    background: darkcyan;
+}
+.main2:nth-child(2){
+    background: cyan;
+}
+.main2:nth-child(3){
+    background: teal;
+}
+.main2:nth-child(4){
+    background: lightcyan;
+}
+
+/* STYLES FOR GREEN PAGE */
+
+.main3 ul{
+    display: flex;
+    justify-content: center;
+}
+.main3 ul li{
+    margin:0 1rem;
+}
+.main3{
+    padding: 160px 0
+}
+.main3:nth-of-type(1){
+    background: darkcyan;
+}
+.main3:nth-child(2){
+    background: olive;
+}
+.main3:nth-child(3){
+    background: olivedrab;
+}
+.main3:nth-child(4){
+    background: yellowgreen;
+}
+.main3:nth-child(5){
+    background: darkolivegreen;
+}
+.main3:nth-child(6){
+    background: greenyellow;
+}
+.main3:nth-child(7){
+    background: chartreuse;
+}
+.main3:nth-child(8){
+    background: lawngreen;
+}
+.main3:nth-child(9){
+    background: darkgreen;
+}
+.main3:nth-child(10){
+    background: green;
+}
+
+/* STYLES FOR RED PAGE */
+
+.main4 ul{
+    display: flex;
+    justify-content: center;
+}
+.main4 ul li{
+    margin:0 1rem;
+}
+.main4{
+    padding: 160px 0
+}
+.main4:nth-of-type(1){
+    background: darkred;
+}
+.main4:nth-child(2){
+    background: firebrick;
+}
+.main4:nth-child(3){
+    background: red;
+}
+.main4:nth-child(4){
+    background: indianred;
+}
+.main4:nth-child(5){
+    background: lightcoral;
+}
+.main4:nth-child(6){
+    background: salmon;
+}
+.main4:nth-child(7){
+    background: darksalmon;
+}
+.main4:nth-child(8){
+    background: lightsalmon;
+}
+.main4:nth-child(9){
+    background: crimson;
+}
+
+/* STYLES FOR BLUE */
+
+.main5 ul{
+    display: flex;
+    justify-content: center;
+}
+.main5 ul li{
+    margin:0 1rem;
+}
+.main5{
+    padding: 160px 0
+}
+.main5:nth-of-type(1){
+    background: deepskyblue;
+}
+.main5:nth-child(2){
+    background: blue;
+}
+.main5:nth-child(3){
+    background: cyan;
+}
+.main5:nth-child(4){
+    background: aquamarine;
+}
+.main5:nth-child(5){
+    background: turquoise;
+}
+.main5:nth-child(6){
+    background: mediumturquoise;
+}
+.main5:nth-child(7){
+    background: aqua;
+}
+.main5:nth-child(8){
+    background: paleturquoise;
+}
+.main5:nth-child(9){
+    background: lightcyan;
+}
+.main5:nth-of-type(10){
+    background: darkturquoise;
+}
+
+/* STYLES FOR PURPLE */
+
+.main6 ul{
+    display: flex;
+    justify-content: center;
+}
+.main6 ul li{
+    margin:0 1rem;
+}
+.main6{
+    padding: 160px 0
+}
+.main6:nth-of-type(1){
+    background: rebeccapurple;
+}
+.main6:nth-child(2){
+    background: magenta;
+}
+.main6:nth-child(3){
+    background: lavender;
+}
+.main6:nth-child(4){
+    background: darkslateblue;
+}
+.main6:nth-child(5){
+    background: slateblue;
+}
+.main6:nth-child(6){
+    background: mediumslateblue;
+}
+.main6:nth-child(7){
+    background: mediumpurple;
+}
+.main6:nth-child(8){
+    background: blueviolet;
+}
+.main6:nth-child(9){
+    background: indigo;
+}
+.main6:nth-of-type(10){
+    background: darkorchid;
+}
+
+/* STYLES FOR PINK PAGE */
+
+.main7 ul{
+    display: flex;
+    justify-content: center;
+}
+.main7 ul li{
+    margin:0 1rem;
+}
+.main7{
+    padding: 160px 0
+}
+.main7:nth-of-type(1){
+    background: mediumvioletred;
+}
+.main7:nth-child(2){
+    background: deeppink;
+}
+.main7:nth-child(3){
+    background: hotpink;
+}
+.main7:nth-child(4){
+    background: palevioletred;
+}
+.main7:nth-child(5){
+    background: pink;
+}
+.main7:nth-child(6){
+    background: lightpink;
+}
+
+/* STYLES FOR ORANGE PAGE */
+
+.main8 ul{
+    display: flex;
+    justify-content: center;
+}
+.main8 ul li{
+    margin:0 1rem;
+}
+.main8{
+    padding: 160px 0
+}
+.main8:nth-of-type(1){
+    background: tomato;
+}
+.main8:nth-child(2){
+    background: orangered;
+}
+.main8:nth-child(3){
+    background: coral;
+}
+.main8:nth-child(4){
+    background: lightsalmon;
+}
+.main8:nth-child(5){
+    background: darkorange;
+}
+.main8:nth-child(6){
+    background: orange;
+}
+
+/* STYLES FOR GRAY */
+
+.main9 ul{
+    display: flex;
+    justify-content: center;
+}
+.main9 ul li{
+    margin:0 1rem;
+}
+.main9{
+    padding: 160px 0
+}
+.main9:nth-of-type(1){
+    background: lightgray;
+}
+.main9:nth-child(2){
+    background: slategrey;
+}
+.main9:nth-child(3){
+    background: lightslategrey;
+}
+.main9:nth-child(4){
+    background: grey;
+}
+.main9:nth-child(5){
+    background: dimgrey;
+}
+.main9:nth-child(6){
+    background: darkslategrey;
+}
+.main9:nth-child(7){
+    background: darkgrey;
+}
+.main9:nth-child(8){
+    background: black;
+}
+.main9:nth-child(9){
+    background: dimgray;
+}
+.main9:nth-of-type(10){
+    background: gray;
+}
+
+/* STYLES FOR WHITE */
+
+.main10 ul{
+    display: flex;
+    justify-content: center;
+}
+.main10 ul li{
+    margin:0 1rem;
+}
+.main10{
+    padding: 160px 0
+}
+.main10:nth-of-type(1){
+    background: whitesmoke;
+}
+.main10:nth-child(2){
+    background: white;
+}
+.main10:nth-child(3){
+    background: snow;
+}
+.main10:nth-child(4){
+    background: mistyrose;
+}
+.main10:nth-child(5){
+    background: seashell;
+}
+.main10:nth-child(6){
+    background: linen;
+}
+.main10:nth-child(7){
+    background: antiquewhite;
+}
+.main10:nth-child(8){
+    background: oldlace;
+}
+.main10:nth-child(9){
+    background: floralwhite;
+}
+.main10:nth-child(10){
+    background: beige;
+}
+/* 
+STYLES FOR BROWN */
+
+.main11 ul{
+    display: flex;
+    justify-content: center;
+}
+.main11 ul li{
+    margin:0 1rem;
+}
+.main11{
+    padding: 160px 0
+}
+.main11:nth-of-type(1){
+    background: maroon;
+}
+.main11:nth-child(2){
+    background: brown;
+}
+.main11:nth-child(3){
+    background: rosybrown;
+}
+.main11:nth-child(4){
+    background: sienna;
+}
+.main11:nth-child(5){
+    background: saddlebrown;
+}
+.main11:nth-child(6){
+    background: chocolate;
+}
+.main11:nth-child(7){
+    background: sandybrown;
+}
+.main11:nth-child(8){
+    background: peru;
+}
+.main11:nth-child(9){
+    background: bisque;
+}
+.main11:nth-child(10){
+    background: burlywood;
+}
